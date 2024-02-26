@@ -6,9 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
     <link rel="styleSheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
+    <div class="todo-modal">
+        <div class="header">To-Do App</div>
+        <form class="user-input">
+            <input type="text" class="input-field" />
+            <button type="submit" id="add-todo-btn">Add</button>
+        </form>
+        <div class="output">
+            <ul class="todo-list">
+                <!--     <li class='todo-comp'>
+              <p>Todoo text test</p>
+              <div class='buttons'>
+              <button class='edit'>Edit</button>
+              <button class='delete'>Delete</button>
+              </div>
+            </li> -->
+            </ul>
+        </div>
+    </div>
+
     <script src="main.js"></script>
 </body>
 
